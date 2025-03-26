@@ -7,6 +7,7 @@ This project is a simple but powerful Warehouse/Inventory Management System desi
 * **Item Check-in:** Technicians can add new items to the inventory, including details such as:
     * Arrival Date
     * Item Description
+    * Manufacturer ID
     * Item Type (dropdown menu: Screws, PVC Pipes, Fans, GM tube, etc.)
     * Quantity
     * SKU
@@ -15,7 +16,7 @@ This project is a simple but powerful Warehouse/Inventory Management System desi
     * Unit Cost
     * Expiry Date
     * Dimensions/Weight
-* **Unique ID Generation:** Each item record in the inventory is assigned a unique ID for tracking.
+* **Unique ID / SKU Generation:** Each item record in the inventory is assigned a unique ID for tracking.
 * **Location Management:** Items can be assigned to specific locations within the warehouse, using a classification system (e.g., GF-C1-R1 for Ground Floor - Cabinet 1 - Row 1).
 * **Inventory Display:** A page displays all items in the warehouse with important details (Date in, Item Description, Item Type, SKU, Batch Lot, Location).
 * **Search and Filtering:** Users can easily search and filter items based on various criteria.
@@ -79,7 +80,7 @@ This project is a simple but powerful Warehouse/Inventory Management System desi
 7.  **Access the application in your web browser:**
 
     ```
-    [http://localhost:5000](https://www.google.com/search?q=http://127.0.0.1:5000/)
+    [http://localhost:5002]
     ```
 
 ## Database Setup
